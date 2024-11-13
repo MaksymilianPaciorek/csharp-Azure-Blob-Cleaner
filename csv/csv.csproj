@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>84cab976-382e-416a-8929-399a98b82b8b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.22.2" />
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>
