@@ -9,7 +9,7 @@ namespace AzureBlobCleaner
         private static BlobServiceClient? blobServiceClient;
 
         // SETTINGS
-        private const int MaxDegreeOfParallelism = -1; // Max. threads (-1 for unlimited)
+        private const int MaxDegreeOfParallelism = 1; // Max. threads 
         private const int MaxLinesPerBatch = 250; // Max. Lines per batch (Choose for how much lines your .csv should be cut.
                                                   // For example 500 means that your .csv will be cut every 500 so it won't take too much memory.)
 
